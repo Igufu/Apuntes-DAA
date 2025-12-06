@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Placeholder}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Lorem ipsum}{2}{subsection.1.1}%
+\contentsline {paragraph}{Propuesto 1}{2}{section*.2}%
