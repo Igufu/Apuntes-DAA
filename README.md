@@ -1,6 +1,6 @@
-# Apuntes IIC2283 | Diseño y Análisis de Algoritmos
+# Apuntes IIC2283 (wip) | Diseño y Análisis de Algoritmos
 
-Hecho por: Sebastián Besoain | Ignacio Gutiérrez
+Hecho por: Sebastián Besoain | Ignacio Gutiérrez | Pedro Salinas
 
 
-Template hecho por (Cristóbal Rojas)[github.com/crow-rojas/Apuntes-IIC2223]
+Template hecho por [Cristóbal Rojas](github.com/crow-rojas/Apuntes-IIC2223).
