@@ -1,0 +1,54 @@
+\section{Algoritmos aleatorizados}
+\subsection{Algoritmos de Monte Carlo}
+
+Un algoritmo de \textbf{Monte Carlo} es aquel que siempre entrega un resultado, pero hay una probabilidad 
+de que sea incorrecto. Garantizan tiempo de ejecución de peor caso y suelen ser acompañados por un 
+análisis de error. La probabilidad de error puede ser reducida ejecutando el algoritmo múltiples
+veces de manera independiente.
+
+\vspace*{10pt}
+
+
+\ejemplo{}{}{
+Considere el problema de encontrar un $1$ en alguna posición $i \in \{1,...,n\}$ de un arreglo de bits $B[1...n]$,
+el cual contiene $n/2$ cantidad de $0$'s y $n/2$ cantidad de $1$'s, una solución tipo Monte Carlo sería la siguiente:
+
+\begin{algorithm}[H]
+    % \caption*{An algorithm with caption}\label{alg:two}
+    \setstretch{1.25}
+    \DontPrintSemicolon
+    \SetKwFunction{FindMC}{Find\_1\_MC}
+    \SetKwProg{Fn}{Function}{:}{}
+    \SetKw{Check}{check}
+    \Fn{\FindMC{$B[1...n], k$}}{
+        $j := 0$
+
+        \Repeat{$j = k$ \KwSty{or} $B[i] = 1$}{
+            Elegir $i \in \{1, ..., n\}$ uniformemente al azar.\;
+            $j := j + 1$ \;
+        }
+
+        \Return{$i$}
+    }
+\end{algorithm} 
+}
+
+\begin{itemize}
+    \item Este algoritmo recibe un parámetro $k$, que permite limitar el tiempo de ejecución
+    a $\mathcal{O}(k)$
+    \item No siempre encuentra una posición que encuentra un $1$, dado que ejecuta a lo más $k$ iteraciones.
+\end{itemize}
+
+\ejercicio{}{Monte Carlo}{
+Encuentre la probabilidad de error del algoritmo, para 
+cualquier $\color{orange!100!black}{k \in \mathbb{N}} $
+}
+
+\vspace*{10pt}
+
+\noindent Note que a medida que aumentamos el parámetro $k$ la probabilidad de éxito va aumentando, esta
+probabilidad está dada por la fórmula
+
+\[
+    \sum_{i=1}^{k} \frac{1}{2^i} = 1 - \biggl(\frac{1}{2}\biggr)^k
+\]

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.22)  6 DEC 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.22)  12 DEC 2025 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/igufumin/Documents/propIIC2223/Apuntes-IIC2223/apunteIIC2283.tex
-(/Users/igufumin/Documents/propIIC2223/Apuntes-IIC2223/apunteIIC2283.tex
+**/Users/igufumin/Documents/Apunte-DAA/Apuntes-DAA/apunteIIC2283.tex
+(/Users/igufumin/Documents/Apunte-DAA/Apuntes-DAA/apunteIIC2283.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -860,34 +860,35 @@ Package: ntheorem 2011/08/15 1.33
 )
 \c@tcb@cnt@ejem=\count361
 \c@tcb@cnt@theo=\count362
+\c@tcb@cnt@ejer=\count363
  (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
+\l__color_backend_stack_int=\count364
 \l__pdf_internal_box=\box144
 ) (./apunteIIC2283.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (./cap1.aux))
+ (./ch1/contenido1.aux) (./ch2/contenido2.aux) (./ch2/ejercicios2.aux) (./ch3/contenido3.aux) (./ch3/ejercicios3.aux) (./ch4/contenido4.aux) (./ch4/ejercicios4.aux) (./ch5/contenido5.aux) (./ch5/ejercicios5.aux) (./ch6/contenido6.aux) (./ch6/ejercicios6.aux) (./ch7/contenido7.aux) (./ch7/ejercicios7.aux) (./ch8/contenido8.aux) (./ch8/ejercicios8.aux))
 \openout1 = `apunteIIC2283.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -923,20 +924,20 @@ LaTeX Font Info:    ... okay on input line 155.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 155.
-LaTeX Info: Redefining \% on input line 155.
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
+\scratchcounter=\count365
 \scratchdimen=\dimen332
 \scratchbox=\box145
-\nofMPsegments=\count365
-\nofMParguments=\count366
+\nofMPsegments=\count366
+\nofMParguments=\count367
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count367
+\MPscratchCnt=\count368
 \MPscratchDim=\dimen333
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
 \everyMPtoPDFconversion=\toks70
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -944,27 +945,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 155.
+Package hyperref Info: Link coloring OFF on input line 177.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count370
-LaTeX Font Info:    Trying to load font information for U+msa on input line 197.
+\c@lstlisting=\count371
+LaTeX Font Info:    Trying to load font information for U+msa on input line 220.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 197.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 220.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 197.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 220.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 <img/logo.png, id=43, 803.0pt x 804.00375pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png  used on input line 226.
+Package pdftex.def Info: img/logo.png  used on input line 249.
 (pdftex.def)             Requested size: 140.92793pt x 141.09534pt.
  [1
 
@@ -979,14 +980,168 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.245 \newpage
+l.268 \newpage
                [1]
-\openout2 = `cap1.aux'.
+\openout2 = `ch1/contenido1.aux'.
 
- (./cap1.tex)
-LaTeX Info: Redefining \. on input line 247.
-LaTeX Info: Redefining \% on input line 247.
+ (./ch1/contenido1.tex)
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
  [2
+
+]
+\openout2 = `ch2/contenido2.aux'.
+
+ (./ch2/contenido2.tex)
+LaTeX Info: Redefining \. on input line 272.
+LaTeX Info: Redefining \% on input line 272.
+ [3
+
+
+
+]
+\openout2 = `ch2/ejercicios2.aux'.
+
+ (./ch2/ejercicios2.tex)
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+ [4
+
+
+
+]
+\openout2 = `ch3/contenido3.aux'.
+
+ (./ch3/contenido3.tex)
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
+ [5
+
+
+
+]
+\openout2 = `ch3/ejercicios3.aux'.
+
+ (./ch3/ejercicios3.tex)
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
+ [6
+
+
+
+]
+\openout2 = `ch4/contenido4.aux'.
+
+ (./ch4/contenido4.tex)
+LaTeX Info: Redefining \. on input line 278.
+LaTeX Info: Redefining \% on input line 278.
+ [7
+
+
+
+]
+\openout2 = `ch4/ejercicios4.aux'.
+
+ (./ch4/ejercicios4.tex)
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
+ [8
+
+
+
+]
+\openout2 = `ch5/contenido5.aux'.
+
+ (./ch5/contenido5.tex)
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
+ [9
+
+
+
+]
+\openout2 = `ch5/ejercicios5.aux'.
+
+ (./ch5/ejercicios5.tex)
+LaTeX Info: Redefining \. on input line 282.
+LaTeX Info: Redefining \% on input line 282.
+LaTeX Info: Redefining \. on input line 282.
+LaTeX Info: Redefining \% on input line 282.
+ [10
+
+
+
+]
+\openout2 = `ch6/contenido6.aux'.
+
+ (./ch6/contenido6.tex)
+LaTeX Info: Redefining \. on input line 284.
+LaTeX Info: Redefining \% on input line 284.
+ [11
+
+
+
+]
+\openout2 = `ch6/ejercicios6.aux'.
+
+ (./ch6/ejercicios6.tex)
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
+ [12
+
+
+
+]
+\openout2 = `ch7/contenido7.aux'.
+
+ (./ch7/contenido7.tex)
+LaTeX Info: Redefining \. on input line 287.
+LaTeX Info: Redefining \% on input line 287.
+ [13
+
+
+
+]
+\openout2 = `ch7/ejercicios7.aux'.
+
+ (./ch7/ejercicios7.tex)
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+ [14
+
+
+
+]
+\openout2 = `ch8/contenido8.aux'.
+
+ (./ch8/contenido8.tex)
+LaTeX Info: Redefining \. on input line 290.
+LaTeX Info: Redefining \% on input line 290.
+ [15
+
+
+
+]
+\openout2 = `ch8/ejercicios8.aux'.
+
+ (./ch8/ejercicios8.tex)
+LaTeX Info: Redefining \. on input line 291.
+LaTeX Info: Redefining \% on input line 291.
+LaTeX Info: Redefining \. on input line 291.
+LaTeX Info: Redefining \% on input line 291.
+ [16
+
+
 
 ]
 \tf@thm=\write6
@@ -997,25 +1152,25 @@ enddocument/afterlastpage: lastpage setting LastPage.
 (./apunteIIC2283.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (./cap1.aux))
+ (./ch1/contenido1.aux) (./ch2/contenido2.aux) (./ch2/ejercicios2.aux) (./ch3/contenido3.aux) (./ch3/ejercicios3.aux) (./ch4/contenido4.aux) (./ch4/ejercicios4.aux) (./ch5/contenido5.aux) (./ch5/ejercicios5.aux) (./ch6/contenido6.aux) (./ch6/ejercicios6.aux) (./ch7/contenido7.aux) (./ch7/ejercicios7.aux) (./ch8/contenido8.aux) (./ch8/ejercicios8.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33758 strings out of 474116
- 663029 string characters out of 5743681
- 1932187 words of memory out of 5000000
- 55572 multiletter control sequences out of 15000+600000
- 564981 words of font info for 62 fonts, out of 8000000 for 9000
+ 34333 strings out of 474116
+ 677401 string characters out of 5743681
+ 1940187 words of memory out of 5000000
+ 56008 multiletter control sequences out of 15000+600000
+ 565495 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,12n,99p,928b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on apunteIIC2283.pdf (3 pages, 334170 bytes).
+ 93i,14n,99p,923b,984s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on apunteIIC2283.pdf (17 pages, 449917 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

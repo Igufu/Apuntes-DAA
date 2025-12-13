@@ -31,8 +31,13 @@
 \usepackage{setspace}
 \usepackage{stmaryrd}
 \usepackage{ntheorem}
+\usepackage{float}
+\setlength{\algomargin}{0pt}
+
+
 
 \definecolor{autogray}{RGB}{235,235,235}
+\definecolor{lightorange}{RGB}{255,240,220}
 
 \newtcolorbox{greenbox}{
 enhanced,
@@ -64,6 +69,8 @@ sharp corners
     %   fontupper=\slshape,
       arc=0mm, 
       colback=autogray,
+      left=4pt,
+      right=4pt,
       breakable, 
       enhanced jigsaw,
       colframe=gray!75!black}
@@ -72,6 +79,20 @@ sharp corners
 \newtcbtheorem[auto counter]{theo}%
 {Teorema}{fonttitle=\bfseries\upshape, fontupper=\slshape,
     arc=0mm, colback=white,colframe=black!85!white}{theorem}
+
+\newtcbtheorem[auto counter,number within=section]{ejer}%
+  {Ejercicio}{
+      fonttitle=\bfseries\upshape,
+      arc=0mm,
+      coltitle=black!85!black,
+      colback=orange!15!white,
+      breakable,
+      left=4pt,
+      right=4pt,
+      enhanced jigsaw,
+      colframe=orange!70!white}
+      {ejercicio}
+
 
 
 \pagestyle{fancy} % Definir estilo de páginas
@@ -128,6 +149,7 @@ sharp corners
 }
 \newcommand{\enlace}[3]{\textcolor{#3}{\textbf{\href{#1}{#2}}}}
 \newcommand{\ejemplo}[3]{\begin{ejem}{#1}{#2}#3\end{ejem}\vspace{1pt}}
+\newcommand{\ejercicio}[3]{\begin{ejer}{#1}{#2}#3\end{ejer}\vspace{1pt}}
 \newcommand{\teorema}[3]{\begin{theo}{#1}{#2}#3\end{theo}\vspace{1pt}}
 \newcommand{\li}[2]{\displaystyle{\lim_{#1 \to #2}}}
 \newcommand{\ca}[1]{\mathcal{#1}}
@@ -192,6 +214,7 @@ sharp corners
             \large
             \textit{Autores}\\
             Sebastián \textsc{Besoain} \\% Your name
+            Pedro \textsc{Salinas} \\
             Ignacio \textsc{Gutiérrez}
         \end{flushleft}
     \end{minipage}
@@ -244,7 +267,28 @@ sharp corners
 
 \newpage
 
-\include{cap1.tex}
+\include{ch1/contenido1}
+
+\include{ch2/contenido2}
+\include{ch2/ejercicios2}
+
+\include{ch3/contenido3}
+\include{ch3/ejercicios3}
+
+\include{ch4/contenido4}
+\include{ch4/ejercicios4}
+
+\include{ch5/contenido5}
+\include{ch5/ejercicios5}
+
+\include{ch6/contenido6}
+\include{ch6/ejercicios6}
+
+\include{ch7/contenido7}
+\include{ch7/ejercicios7}
+
+\include{ch8/contenido8}
+\include{ch8/ejercicios8}
 
 
 %----------------------------------------------------------------------------------------
