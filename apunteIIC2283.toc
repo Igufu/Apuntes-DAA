@@ -1,18 +1,19 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
 \contentsline {section}{\numberline {2}Análisis de la eficiencia de un algoritmo}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Ejercicios del capítulo}{4}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Análisis de caso promedio}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Ejercicios del capítulo}{6}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Técnicas para demostrar cotas inferiores}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Ejercicios del capítulo}{8}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Técnicas fundamentales de diseño de algoritmos}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Ejercicios del capítulo}{10}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Transformaciones de domino}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Representación de un polinomio}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Ejercicios del capítulo}{12}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Algoritmos aleatorizados}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Algoritmos de Monte Carlo}{13}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Ejercicios del capítulo}{14}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Algoritmos en teoría de números}{15}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Ejercicios del capítulo}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {2.1}Ecuaciones de recurrencia}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Ejercicios del capítulo}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Análisis de caso promedio}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ejercicios del capítulo}{7}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Técnicas para demostrar cotas inferiores}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Ejercicios del capítulo}{9}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Técnicas fundamentales de diseño de algoritmos}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ejercicios del capítulo}{11}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Transformaciones de domino}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Representación de un polinomio}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Ejercicios del capítulo}{13}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Algoritmos aleatorizados}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Algoritmos de Monte Carlo}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Ejercicios del capítulo}{15}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Algoritmos en teoría de números}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Ejercicios del capítulo}{17}{subsection.8.1}%

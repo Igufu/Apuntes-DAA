@@ -435,13 +435,14 @@ OUTPUT ch2/contenido2.aux
 INPUT ./ch2/contenido2.tex
 INPUT ./ch2/contenido2.tex
 INPUT ch2/contenido2.tex
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./ch2/ejercicios2.tex
 INPUT ./ch2/ejercicios2.tex
 OUTPUT ch2/ejercicios2.aux
 INPUT ./ch2/ejercicios2.tex
 INPUT ./ch2/ejercicios2.tex
 INPUT ch2/ejercicios2.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./ch3/contenido3.tex
 INPUT ./ch3/contenido3.tex
 OUTPUT ch3/contenido3.aux
@@ -574,6 +575,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

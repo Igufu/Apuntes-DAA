@@ -1,1 +1,138 @@
 \section{Análisis de la eficiencia de un algoritmo}
+
+Para esta sección es bueno recordar la definición formal de la notación asintótica:
+
+\definicion{}{}{
+    Sea $f : \mathbb{N} \rightarrow \mathbb{R}^+$ se define la notación asintótica como los siguientes conjuntos de funciones:
+
+    \begin{itemize}
+        \item $\mathcal{O}(f) = \{ g : \mathbb{N} \rightarrow \mathbb{R}^+ \mid 
+        (\exists c \in \mathbb{R}^+)(\exists n_0 \in \mathbb{N})(\forall n \geq n_0)(g(n) \leq c \cdot f(n)) \}$
+
+        \item ${\Omega}(f) = \{ g : \mathbb{N} \rightarrow \mathbb{R}^+ \mid 
+        (\exists c \in \mathbb{R}^+)(\exists n_0 \in \mathbb{N})(\forall n \geq n_0)(g(n) \geq c \cdot f(n)) \}$
+
+        \item ${\Theta}(f) = \mathcal{O}(f) \cap {\Omega}(f)$
+    \end{itemize}
+}
+
+No será de mucha utilidad en nuestro caso, pero se puede saber el rango del valor de los siguientes límites:
+
+\teorema{}{}{
+    Sea $f : \mathbb{N} \rightarrow \mathbb{R}^+$ y $g : \mathbb{N} \rightarrow \mathbb{R}^+$, luego
+
+    \begin{itemize}
+        \item Si $f(n) \in \mathcal{O}(g(n))$ entonces $\lim_{n \to \infty} \frac{f(n)}{g(n)} \in [0, \infty)$
+        \item Si $f(n) \in {\Omega}(g(n))$ entonces $\lim_{n \to \infty} \frac{f(n)}{g(n)} \in (0, \infty]$
+        \item Si $f(n) \in {\Theta}(g(n))$ entonces $\lim_{n \to \infty} \frac{f(n)}{g(n)} \in (0, \infty)$
+
+    \end{itemize}
+}
+
+\subsection{Ecuaciones de recurrencia}
+
+Una \textbf{recurrencia} es una ecuación o desigualdad que describe
+una función en términos de su valor sobre inputs más pequeños.
+
+\ejemplo{}{}{
+El peor caso de \textsc{Merge-Sort} está dado por la ecuación de recurrencia
+
+\[
+    T(n) = \begin{cases}
+            \Theta(1) & \text { si } n = 1\\
+            T(\lceil n/2 \rceil) + T(\lfloor n/2 \rfloor) + \Theta(n) & \text{ si } n > 1
+            \end{cases}
+\]
+
+}
+
+Existen varios métodos para resolver estas recurrencias, uno de ellos es la \textbf{sustitución de variables}
+que consiste en dos pasos:
+
+\begin{enumerate}
+    \item  Adivinar la forma de la solución
+    \item Usar inducción para encontrar las constantes y mostrar que la solución funciona
+\end{enumerate}
+
+\ejemplo{}{}{
+Considere la recurrencia:
+\[
+    T(n) = 2T(\lfloor n/2 \rfloor) + n
+\]
+
+Adivinamos primero que la solución es $T(n) \in \mathcal{O}(n \log n)$, el método de sustitución
+requiere demostrar que $T(n) \leq cn \log n$ para algún $c > 0$. Empezamos asumiendo que se cumple 
+para todo $m < n$ con $m$ positivo, en particular para $m = \lfloor n/2 \rfloor$, luego tenemos 
+que $T(\lfloor n/2 \rfloor) \leq c \lfloor n/2 \rfloor \log(\lfloor n/2\rfloor)$. Sustituyendo en la 
+ecuación tenemos que 
+\begin{align*}
+    T(n)
+    &\le 2\bigl(c\lfloor n/2 \rfloor \lg(\lfloor n/2 \rfloor)\bigr) + n \\ 
+    &\le cn \lg(n/2) + n \tag{\text{Notar que} $c$ \text{sigue siendo una constante}} \\
+    &= cn \lg n - cn \lg 2 + n \\
+    &= cn \lg n - cn + n \\
+    &\le cn \lg n .
+\end{align*}
+Solo se necesita que $c \geq 1$.
+
+\vspace*{10pt}
+
+La inducción matemática ahora requiere que mostremos nuestra solución para las condiciones límite. 
+Note que para $n = 1$, entonces:
+
+\begin{align*}
+    T(1) 
+    &\leq c1\log 1 \\
+    &= 0
+\end{align*}
+Lo que es falso ya que $T(1) = 1$. Aquí gracias a la definición formal podemos fijar un $n_0$ que funcione
+en este caso podemos elegir $n_0 = 2$. Al escoger este $n_0$, debemos demostrar como casos 
+base todos aquellos casos donde la recursión de $T(n)$ resulte en un caso menor a $n_0 = 2$ aquí serían $T(2)$ y $T(3)$ ya que ambos 
+dependen de $T(1)$ directamente (dado la ecuación). Queda como ejercicio para el lector definir un $c$ y demostrar por inducción
+la cota.
+}
+
+\ejercicio{}{a}{
+Considere nuevamente la recurrencia de \textsc{Merge-Sort}:
+\[ 
+    T(n) = \begin{cases}
+            \Theta(1) & \text { si } n = 1\\
+            T(\lceil n/2 \rceil) + T(\lfloor n/2 \rfloor) + \Theta(n) & \text{ si } n \geq 2
+            \end{cases}
+\]
+
+Encuentre el orden $f : \mathbb{N} \rightarrow R^+$ de $\mathcal{O}$ de $T(n)$ y demuestre formalmente que $T(n) \in \mathcal{O}(f)$.
+
+\vspace*{10pt}
+\color{orange!100!black} 
+
+\color{orange!100!black} \textbf{Solución:} Escogemos $f = n \log n$, en este caso particular nos conviene el reemplazo 
+$T(n) \leq cn \log (n-1)$ debido a las funciones techo en la ecuación, luego 
+\begin{align*}
+    T(n) 
+    &\leq c \lceil n/2 - 1 \rceil \log  \lceil n/2 - 1 \rceil + c \lfloor n/2 - 1 \rfloor \log  \lfloor n/2 - 1 \rfloor + n\\
+    &\leq c \lceil n/2 - 1 \rceil (2\log \lceil n/2 - 1 \rceil) \\
+    &\leq cn \Biggl(\log \frac{(n+1)}{2} - 1\Biggr) \\
+    &\leq cn \log (n - 1)
+\end{align*}
+
+
+Ahora falta encontrar $c$, $n_0$ y demostrar por inducción que se cumple para todo $n \geq n_0$. En este caso elegiremos 
+$c = 3$ y $n_0 = 3$, ya que para $T(1)$ y $T(2)$ no se cumple. Luego nuestros casos bases son $\{3,4,5\}$ para los cuales
+se cumple (lo puede comprobar), luego para el paso inductivo con $n \geq 6$ tenemos que:
+\begin{align*}
+    T(n) 
+    &\leq 3 \lceil n/2 - 1 \rceil \log  \lceil n/2 - 1 \rceil + \lfloor n/2 - 1 \rfloor \log  \lfloor n/2 - 1 \rfloor + n\\
+    &\leq 3n (\log \lceil n/2 - 1 \rceil) \\
+    &\leq 3n \Biggl(\log \frac{(n+1)}{2} - 1\Biggr) \\
+    &\leq 3n \log (n - 1) \hspace*{10pt}\triangle
+\end{align*}
+
+
+}
+
+
+ 
+
+
+

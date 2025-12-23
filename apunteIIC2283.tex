@@ -76,9 +76,13 @@ sharp corners
       colframe=gray!75!black}
       {ejemplo}
 
-\newtcbtheorem[auto counter]{theo}%
+\newtcbtheorem[auto counter, number within=section]{theo}%
 {Teorema}{fonttitle=\bfseries\upshape, fontupper=\slshape,
-    arc=0mm, colback=white,colframe=black!85!white}{theorem}
+    arc=0mm, 
+    left=4pt,
+    right=4pt,
+    colback=white,
+    colframe=black!75!white}{theorem}
 
 \newtcbtheorem[auto counter,number within=section]{ejer}%
   {Ejercicio}{
@@ -92,6 +96,19 @@ sharp corners
       enhanced jigsaw,
       colframe=orange!70!white}
       {ejercicio}
+
+\newtcbtheorem[auto counter,number within=section]{defi}%
+  {Definición}{
+      fonttitle=\bfseries\upshape,
+      arc=0mm,
+      coltitle=black!85!black,
+      colback=orange!15!white,
+      breakable,
+      left=4pt,
+      right=4pt,
+      enhanced jigsaw,
+      colframe=orange!70!white}
+      {definición}
 
 
 
@@ -150,6 +167,7 @@ sharp corners
 \newcommand{\enlace}[3]{\textcolor{#3}{\textbf{\href{#1}{#2}}}}
 \newcommand{\ejemplo}[3]{\begin{ejem}{#1}{#2}#3\end{ejem}\vspace{1pt}}
 \newcommand{\ejercicio}[3]{\begin{ejer}{#1}{#2}#3\end{ejer}\vspace{1pt}}
+\newcommand{\definicion}[3]{\begin{defi}{#1}{#2}#3\end{defi}\vspace{1pt}}
 \newcommand{\teorema}[3]{\begin{theo}{#1}{#2}#3\end{theo}\vspace{1pt}}
 \newcommand{\li}[2]{\displaystyle{\lim_{#1 \to #2}}}
 \newcommand{\ca}[1]{\mathcal{#1}}
